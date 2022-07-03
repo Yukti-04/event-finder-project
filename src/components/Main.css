@@ -1,0 +1,254 @@
+.Content {
+    width: 1000px;
+    display: table;
+    margin: 1% auto 0;
+    height: 500px;
+    border-radius: 50px;
+    border-width: 10px;
+}
+
+.Header {
+    background: url("https://cdn.wallpapersafari.com/15/2/OdZ3eu.jpg");
+    width: 100%;
+    height: 100px;
+    background-size: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.Layer {
+    color: whitesmoke;
+    text-decoration: dashed;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.Body {
+    background-image: url("https://media.istockphoto.com/photos/glitter-vintage-lights-abstract-background-new-year-holiday-silver-picture-id1178183406?b=1&k=20&m=1178183406&s=170667a&w=0&h=PWrZuXQuDCz9ZvIKAf4dWYOydWDx2tIuiDw254d9Oj0=");
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px;
+    width: 1000px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Content .Body .Events{
+    padding: 10px;
+    display: table;
+    width: 100%;
+    list-style-type: none;
+    margin: 10px;
+}
+
+.Content .Body .events li{
+    padding:  15px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+}
+
+.Content .Body .events li .Event {
+    width:20%;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+.Content .Body .events li .Time{
+    text-align: center;
+    width:20%;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+.Content .Body .events li .Number{
+    text-align: center;
+    width:20%;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+.Content .Body .events li .Place{
+    text-align: center;
+    width:20%;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+.Content .Body .events li .Date{
+    text-align: center;
+    width:20%;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+.Content .Body .events li .Day{
+    text-align: center;
+    width:20%;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+.Content .Body .events li .Mail {
+    color: black;
+    text-align: center;
+    width:20%;
+    font-size: 15px;
+    cursor:pointer;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin: 2px;
+}
+.Content .Body .events li .Mail:hover{
+    cursor: pointer;
+    color: white;
+    background-color: red;
+}
+.AddEvent {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Content .Body .AddEvent form {
+    width: 100%;
+    display: flex;
+}
+.Content .Body .AddEvent input[type="text"] {
+    display: block;
+    font-size: 15px;
+    color: #000;
+}
+.eventName{
+    width:35%;
+    border: 5px solid black;
+    margin: 5px;
+    text-align: center;
+}
+.eventPlace{
+    width:20%;
+    border: 5px solid black;
+    margin: 5px;
+    text-align: center;
+}
+.eventTime{
+    width:20%;
+    border: 5px solid black;
+    margin: 5px;
+    text-align: center;
+}
+.eventDate{
+    width:20%;
+    border: 5px solid black;
+    margin: 5px;
+    text-align: center;
+}
+.eventDay{
+    width:20%;
+    border: 5px solid black;
+    margin: 5px;
+    text-align: center;
+}
+.submit {
+    width:20%;
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+}
+.submit:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #000;
+}
+input[type="text"]::placeholder {
+    /* Firefox, Chrome, Opera */
+    text-align: center;
+    font-size: 15px;
+}
+.view-container{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 30px;
+    color: red;
+    box-shadow: 4px 4px 4px black;
+    background-color: black;
+    padding: 10px;
+}
+.table{
+    margin: 10px;
+    border-radius: 10px;
+    color: #000;
+    border: 1px solid;
+    border-color: white;
+}
+tr,td{
+    border: 1px solid;
+    border-color: white;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}
+thead{
+    width: 100%;
+    border: 1px solid;
+    border-color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: cyan;
+    
+}
+th{
+    width: 300px;
+    border: 1px solid;
+    border-color: white;
+    border-radius: 10px;
+    color: #000;
+    font-size: 30px;
+}
+.removeall{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: red;
+    text-decoration: underline;
+    font-size: 30px;
+    border-radius: 15px;
+    padding: 5px;
+}
+.delete{
+    width: 50%;
+    padding: 10px;
+    background-color: black;
+    box-sizing: border-box;
+    font-size: 15px;
+    border-radius: 15px;
+    color: white;
+}
+.delete:hover{
+        cursor: pointer;
+        text-decoration: underline;
+        box-shadow: 1px 2px 4px white;
+        text-shadow: 0.5px 0.5px wheat;
+}
+.removeall:hover{
+    cursor: pointer;
+    box-shadow: 2px 4px 4px black;
+    text-shadow: 1px 1px black;
+}
