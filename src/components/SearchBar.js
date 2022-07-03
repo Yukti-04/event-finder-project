@@ -22,23 +22,27 @@ const SearchBar = () => {
   return (
     <div className="Search">
       <h3>Search Filter</h3>
-      <input type="text" placeholder="Search..." onChange={(e) => setSearchTitle(e.target.value)}/>
+      <input type="text"  className="SearchBar" placeholder="Search..." onChange={(e) => setSearchTitle(e.target.value)}/>
+      <div className="SearchElement">
+        <h4>Search List</h4>
       {loading ? (
         <h4>Loading ...</h4>
       ) : (
         posts
           .filter((value) => {
             if (searchTitle === "") {
-              return value;
+              
             } else if (
               value.title.toLowerCase().includes(searchTitle.toLowerCase())
+              
             ) {
               return value;
             }
           })
-          .map((item) => <h5 key={item.id}>{item.title}</h5>)
+          .map((item) => <h6 key={item.id}>{item.title}</h6>)
       )}
-    </div>
+      </div>
+    </div>  
   );
 }
 export default SearchBar;
